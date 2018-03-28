@@ -1,0 +1,1062 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "Dialog2",
+        "info": {
+            "createdBy": "Francisco Castillo",
+            "dateCreated": "2018-3-27",
+            "dateLastEdited": "2018-3-27"
+        },
+        "guid": "ac611a65-2859-4193-9133-858cf8b96765",
+        "style_name": "iOS",
+        "componentName": "login",
+        "componentFilename": "C:\\Users\\Francisco Castillo\\Desktop\\Sebastian\\oneclick\\oneclick_proto.WebProjects\\Default.WebProject\\login.a5wcmp",
+        "page_fields": [
+            {
+                "controltype": "layout_directive_comment",
+                "display": "{B=White,Light Blue}{B=White,#104+150+112}{Data=e4ed019d-5c00-4df0-8771-b58e8d498105}{I:'$$code.action.commentOut'} {C=#104+150+1120,White}After the user logs in the client-side afterLogin event fires and sets focus to the [PANEL_APPLICATION]...",
+                "displayODFlat": "{Data=e4ed019d-5c00-4df0-8771-b58e8d498105}{I:'$$code.action.commentOut'} ",
+                "idInternal": "e4ed019d-5c00-4df0-8771-b58e8d498105",
+                "parentContainer": -1,
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "displayOD": "{Data=e4ed019d-5c00-4df0-8771-b58e8d498105}{I:'$$code.action.commentOut'} ",
+                "repeatingSectionParentId": -1,
+                "displayODTree": "{B=White,Light Blue}{B=White,#104+150+112}{Data=e4ed019d-5c00-4df0-8771-b58e8d498105}{I:'$$code.action.commentOut'} {C=#104+150+1120,White}After the user logs in the client-side afterLogin event fires and sets focus to the [PANEL_APPLICATION]...",
+                "precalc": {
+                    "ControlHTML": "",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294932463",
+                "v": {
+                    "comment": "After the user logs in the client-side afterLogin event fires and sets focus to the [PANEL_APPLICATION]\nPanel Card. This Panel Card will typically contain an [Embedded Object] control that loads your application UX component.\n\n\nWhen the user logs out, the client-side afterLogout event fires and sets forcus to the [PANEL_LOGIN] \nPanel Card.\n\nThe 'Has integrated login functionality' on the Properties pane has been checked."
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelNavigatorBegin",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=47bfe378_633f_4146_807e_4f1f12526a97}{I:'$$web.panel.navigator'} [Panel Navigator: PANEL_APPLICATIONNAVIGATOR] (Programmatic) (LTR)",
+                "displayODFlat": "{Data=47bfe378_633f_4146_807e_4f1f12526a97}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "idInternal": "47bfe378_633f_4146_807e_4f1f12526a97",
+                "lastIndex": 15,
+                "parentContainer": -1,
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=47bfe378_633f_4146_807e_4f1f12526a97}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=47bfe378_633f_4146_807e_4f1f12526a97}{I:'$$web.panel.navigator'} [Panel Navigator: PANEL_APPLICATIONNAVIGATOR] (Programmatic) (LTR)",
+                "indentTree": 0,
+                "crc": "4294931951",
+                "isCollapsed": false,
+                "v": {
+                    "container": {
+                        "id": "PANEL_APPLICATIONNAVIGATOR"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelNavigator": {
+                        "navigatorType": "Programmatic",
+                        "navigatorFlow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "indicator": {
+                            "location": "Auto"
+                        },
+                        "tabBand": {
+                            "location": "Top"
+                        }
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=02b56e60_dd76_413b_864e_6db29d75af04}{I:'$$web.panel.card'} [Panel Card: PANEL_LOGIN]",
+                "displayODFlat": "{Data=02b56e60_dd76_413b_864e_6db29d75af04}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "idInternal": "02b56e60_dd76_413b_864e_6db29d75af04",
+                "lastIndex": 9,
+                "parentContainer": 2,
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=02b56e60_dd76_413b_864e_6db29d75af04}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=02b56e60_dd76_413b_864e_6db29d75af04}{I:'$$web.panel.card'} [Panel Card: PANEL_LOGIN]",
+                "indentTree": 1,
+                "crc": "4294925212",
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "parentIsCollapsed": false,
+                "v": {
+                    "container": {
+                        "id": "PANEL_LOGIN"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=b8d3c944_dd8d_44b0_bbba_dd34763a278f}{I:'$$control.edit'} [UserName] ¶",
+                "displayODFlat": "{Data=b8d3c944_dd8d_44b0_bbba_dd34763a278f}{I:'$$control.edit'} [UserName]",
+                "idInternal": "b8d3c944_dd8d_44b0_bbba_dd34763a278f",
+                "parentContainer": 3,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=b8d3c944_dd8d_44b0_bbba_dd34763a278f}{I:'$$control.edit'} [UserName]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=b8d3c944_dd8d_44b0_bbba_dd34763a278f}{I:'$$control.edit'} [UserName] ¶",
+                "indentTree": 2,
+                "crc": "4294961624",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\"  autocapitalize=\"off\"  autocorrect=\"off\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.USERNAME\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERNAME': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "UserName",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "hasWatermark": true,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "label": "User Name",
+                    "class": "<Default>",
+                    "width": "100%",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "editOptionsJSObject": "<watermark<text=\"User Name\">\n>\n",
+                        "javascript_Lookupfields": "{dialog.componentName}_DlgObj.fieldHelpers['USERNAME'] = new A5.Edit({\n\twatermark: {\n\t\ttext: 'User Name'\n\t}\n});",
+                        "xbasic_LookupfieldsPopulate": "",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1df25d09_c204_4c79_b3a9_69059e858406}{I:'$$control.edit'} [Password] ¶{T=6}{C=#104+150+1120,White}// Autocorrect and Autocapitalize properties are turned off for password controls...",
+                "displayODFlat": "{Data=1df25d09_c204_4c79_b3a9_69059e858406}{I:'$$control.edit'} [Password]",
+                "idInternal": "1df25d09_c204_4c79_b3a9_69059e858406",
+                "parentContainer": 3,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1df25d09_c204_4c79_b3a9_69059e858406}{I:'$$control.edit'} [Password]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1df25d09_c204_4c79_b3a9_69059e858406}{I:'$$control.edit'} [Password] ¶{T=6}{C=#104+150+1120,White}// Autocorrect and Autocapitalize properties are turned off for password controls...",
+                "indentTree": 2,
+                "crc": "4294922568",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<!--FldS--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.PASSWORD\" title=\"\"  autocapitalize=\"off\"  autocorrect=\"off\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.PASSWORD\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'PASSWORD': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "comment": "Autocorrect and Autocapitalize properties are turned off for password controls\nAn onKeyPress event is defined to turn the control type to 'text' if there is no text in the control and to 'password' if the user has started typing.\nNOTE: The same code is repeated in the onBlur event to get this pattern to work in Internet Explorer.\nBy setting the control type to 'password' dynamically, the actual password characters that have been typed are hidden.\nBy setting the control type back to 'text' when there is no text in the field, the watermark text in the control (which displays the work 'Password') is readable.\nNOTE: Because the onKeyPress event is dynamically setting the control type, it is not necessary to check the 'Password' property for the control.",
+                    "controlType": "Textbox",
+                    "variableName": "Password",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "hasWatermark": true,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "label": "Password",
+                    "class": "<Default>",
+                    "width": "100%",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "password": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "editOptionsJSObject": "<watermark<text=\"Password\">\n>\n",
+                        "javascript_Lookupfields": "{dialog.componentName}_DlgObj.fieldHelpers['PASSWORD'] = new A5.Edit({\n\twatermark: {\n\t\ttext: 'Password'\n\t}\n});",
+                        "xbasic_LookupfieldsPopulate": "",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=4878c748_d89e_451c_8385_fa47b8567f44}{I:'$$control.button'} [Button: Login] ¶",
+                "displayODFlat": "{Data=4878c748_d89e_451c_8385_fa47b8567f44}{I:'$$control.button'} [Button]",
+                "idInternal": "4878c748_d89e_451c_8385_fa47b8567f44",
+                "parentContainer": 3,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=4878c748_d89e_451c_8385_fa47b8567f44}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=4878c748_d89e_451c_8385_fa47b8567f44}{I:'$$control.button'} [Button: Login] ¶",
+                "indentTree": 2,
+                "crc": "4294933895",
+                "precalc": {
+                    "ControlHTML": "\t<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_BUTTON\"    ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t",
+                    "DesignViewHTML": "\t<div class=\"A5CWLayout A5COMPONENTITEM\" A5ItemDesc=\"LOGIN_BUTTON\" id=\"4878c748_d89e_451c_8385_fa47b8567f44\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_BUTTON\"  ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t"
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "buttonText": "Login",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "LOGIN_BUTTON",
+                    "advancedButtonStyling": true,
+                    "width": "100%",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "//Reminder: You must check the 'Has integrated login functionality' property on the Properties pane.\n{dialog.object}.login()",
+                        "swipe": "",
+                        "swipeLeft": "",
+                        "swipeRight": "",
+                        "swipeUp": "",
+                        "swipeDown": ""
+                    },
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_BUTTON','abstractclick',function(e) {\n//Reminder: You must check the 'Has integrated login functionality' property on the Properties pane.\n{dialog.object}.login()\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_BUTTON');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['LOGIN_BUTTON'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',\n\thtml: 'Login',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['LOGIN_BUTTON'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.LOGIN_BUTTON');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=463059ca_02b8_42e2_bede_4e1d74741437}{I:'$$control.button'} [Button: Logout] ¶{T=6}{C=#104+150+1120,White}// This control has a client-side show/hide expression so that it only visible if user is logged in",
+                "displayODFlat": "{Data=463059ca_02b8_42e2_bede_4e1d74741437}{I:'$$control.button'} [Button]",
+                "idInternal": "463059ca_02b8_42e2_bede_4e1d74741437",
+                "parentContainer": 3,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=463059ca_02b8_42e2_bede_4e1d74741437}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=463059ca_02b8_42e2_bede_4e1d74741437}{I:'$$control.button'} [Button: Logout] ¶{T=6}{C=#104+150+1120,White}// This control has a client-side show/hide expression so that it only visible if user is logged in",
+                "indentTree": 2,
+                "crc": "4294951904",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_BUTTON\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "comment": "This control has a client-side show/hide expression so that it only visible if user is logged in",
+                    "buttonText": "Logout",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "LOGOUT_BUTTON",
+                    "advancedButtonStyling": true,
+                    "width": "100%",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "dialog.isLoggedIn = true",
+                    "abstractJavascript": {
+                        "click": "//Note: This event is only meaningful if use logged in using integrated UX login, or the AppLauncher.\n//If the user logged in from the Login Component, this event has no meaning.\n{dialog.object}.logout();"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "{dialog.object}.dialogWatches['SHOWHIDE_LOGOUT_BUTTON'] = {\n\t\twatch: [],\n\t\tvariables: [],\n\t\tonChange: function(data) {\n\t\n\t\n\tvar dialog = {};\n\tvar summary = {};\n\t{dialog.object}._getDialogVariables(dialog,summary,data);\n\tvar showHide = '';\n\tif( (dialog.isLoggedIn == true) == true ) showHide = '';\n\telse showHide = 'none';\t\n\tif(showHide == 'none') {\t\n\t\t{dialog.object}.setControlDisplay(''+'LOGOUT_BUTTON'+'',false,'display');\n\t} else {\n\t\t{dialog.object}.setControlDisplay(''+'LOGOUT_BUTTON'+'',true,'display');\n\t}\n\t\n\t}\n}\n\n",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_BUTTON',A5.d.evnts.click,function(e) {\n{dialog.object}.logout();\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_BUTTON');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['LOGOUT_BUTTON'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',\n\thtml: 'Logout',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['LOGOUT_BUTTON'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.LOGOUT_BUTTON');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_placeholder",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1ca28036_4d7b_4d09_8e18_f97dcc7bf48e}{I:'$$format.border.style.dot'} [Placeholder:LOGIN_ERRORS] ¶{T=6}{C=#104+150+1120,White}// This is where login errors are shown. You must configure the 'Placeholder for login errors' property (see Properties pane) to use this placeholder.",
+                "displayODFlat": "{Data=1ca28036_4d7b_4d09_8e18_f97dcc7bf48e}{I:'$$format.border.style.dot'} [Placeholder]",
+                "idInternal": "1ca28036_4d7b_4d09_8e18_f97dcc7bf48e",
+                "parentContainer": 3,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1ca28036_4d7b_4d09_8e18_f97dcc7bf48e}{I:'$$format.border.style.dot'} [Placeholder]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=1ca28036_4d7b_4d09_8e18_f97dcc7bf48e}{I:'$$format.border.style.dot'} [Placeholder:LOGIN_ERRORS] ¶{T=6}{C=#104+150+1120,White}// This is where login errors are shown. You must configure the 'Placeholder for login errors' property (see Properties pane) to use this placeholder.",
+                "indentTree": 2,
+                "crc": "4294911084",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 100%\"  id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_ERRORS\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "comment": "This is where login errors are shown. You must configure the 'Placeholder for login errors' property (see Properties pane) to use this placeholder.",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "width": "100%",
+                    "id": "LOGIN_ERRORS",
+                    "labelPosition": "None",
+                    "hide": false
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=a60a0a77_6421_4fee_913b_91789c9c86d5}{I:'vertLineCap'} [Panel Card End: PANEL_LOGIN]",
+                "displayODFlat": "{Data=a60a0a77_6421_4fee_913b_91789c9c86d5}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "a60a0a77_6421_4fee_913b_91789c9c86d5",
+                "containerStartIndex": 3,
+                "parentContainer": 2,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=a60a0a77_6421_4fee_913b_91789c9c86d5}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=a60a0a77_6421_4fee_913b_91789c9c86d5}{I:'vertLineCap'} [Panel Card End: PANEL_LOGIN]",
+                "indentTree": 1,
+                "crc": "4294913962",
+                "parentIsCollapsed": true,
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=5f7a4df3_b756_4f8f_a546_38984152546c}{I:'$$web.panel.card'} [Panel Card: PANEL_APPLICATION]",
+                "displayODFlat": "{Data=5f7a4df3_b756_4f8f_a546_38984152546c}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "idInternal": "5f7a4df3_b756_4f8f_a546_38984152546c",
+                "lastIndex": 14,
+                "parentContainer": 2,
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=5f7a4df3_b756_4f8f_a546_38984152546c}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=5f7a4df3_b756_4f8f_a546_38984152546c}{I:'$$web.panel.card'} [Panel Card: PANEL_APPLICATION]",
+                "indentTree": 1,
+                "crc": "4294928151",
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "parentIsCollapsed": false,
+                "v": {
+                    "container": {
+                        "id": "PANEL_APPLICATION"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_comment",
+                "display": "{B=White,Light Blue}{B=White,#104+150+112}{Data=a09cd826-e7e3-419f-b87c-676800a3c7ec}{I:'$$code.action.commentOut'} {C=#104+150+1120,White}The [Static Text] control shown here is just a placeholder....",
+                "displayODFlat": "{Data=a09cd826-e7e3-419f-b87c-676800a3c7ec}{I:'$$code.action.commentOut'} ",
+                "idInternal": "a09cd826-e7e3-419f-b87c-676800a3c7ec",
+                "parentContainer": 10,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{Data=a09cd826-e7e3-419f-b87c-676800a3c7ec}{I:'$$code.action.commentOut'} ",
+                "repeatingSectionParentId": -1,
+                "displayODTree": "{B=White,Light Blue}{B=White,#104+150+112}{Data=a09cd826-e7e3-419f-b87c-676800a3c7ec}{I:'$$code.action.commentOut'} {C=#104+150+1120,White}The [Static Text] control shown here is just a placeholder....",
+                "precalc": {
+                    "ControlHTML": "",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294912877",
+                "v": {
+                    "comment": "The [Static Text] control shown here is just a placeholder.\nYou should replace it with an [Embedded Object] control to display the UX component for your application.\nWhen you embedded your UX component here, you will typically set the 'Delay render till visible' property to true.\n\nThe [Logout] button shown here is would also be removed when you replace the [Static Text] control with an [Embedded Object].\nThe [Embedded Object] UX component will typically have a logout button."
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5fcb974b_8b54_4ce8_a4a5_931299b95c52}{I:'$$format.text'} [Static Text: This is a [Static Te] ¶",
+                "displayODFlat": "{Data=5fcb974b_8b54_4ce8_a4a5_931299b95c52}{I:'$$format.text'} [Static Text]",
+                "idInternal": "5fcb974b_8b54_4ce8_a4a5_931299b95c52",
+                "parentContainer": 10,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5fcb974b_8b54_4ce8_a4a5_931299b95c52}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5fcb974b_8b54_4ce8_a4a5_931299b95c52}{I:'$$format.text'} [Static Text: This is a [Static Te] ¶",
+                "indentTree": 2,
+                "crc": "4294915188",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >This is a [Static Text] control in the [PANEL_APPLICATION] Panel Card.<br>\nYou should replace this control with an [Embedded Object] control to display the UX component\nfor your application.</br><br>\nIMPORTANT:<br>\nWhen you embedded your UX component here, you will typically set the 'Delay render till visible' property to true.</br>\nYou should also set the 'Refresh when Panel Card gets focus' property to true so that the embedded component is reloaded with the correct security settings.\n\n</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "parentIsCollapsed": true,
+                "v": {
+                    "StaticText": "This is a [Static Text] control in the [PANEL_APPLICATION] Panel Card.<br>\nYou should replace this control with an [Embedded Object] control to display the UX component\nfor your application.</br><br>\nIMPORTANT:<br>\nWhen you embedded your UX component here, you will typically set the 'Delay render till visible' property to true.</br>\nYou should also set the 'Refresh when Panel Card gets focus' property to true so that the embedded component is reloaded with the correct security settings.\n\n",
+                    "Class": "<Default>",
+                    "width": "100%",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_1",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=d6bd4276-a942-41fc-901c-9d97baa0b316}{I:'$$control.button'} [Button: Logout] ¶",
+                "displayODFlat": "{Data=d6bd4276-a942-41fc-901c-9d97baa0b316}{I:'$$control.button'} [Button]",
+                "idInternal": "d6bd4276-a942-41fc-901c-9d97baa0b316",
+                "parentContainer": 10,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=d6bd4276-a942-41fc-901c-9d97baa0b316}{I:'$$control.button'} [Button]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=d6bd4276-a942-41fc-901c-9d97baa0b316}{I:'$$control.button'} [Button: Logout] ¶",
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "\t<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_TEST\"    ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t",
+                    "DesignViewHTML": "\t<div class=\"A5CWLayout A5COMPONENTITEM\" A5ItemDesc=\"LOGOUT_TEST\" id=\"d6bd4276-a942-41fc-901c-9d97baa0b316\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_TEST\"  ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t"
+                },
+                "crc": "4294936044",
+                "v": {
+                    "buttonText": "Logout",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "LOGOUT_TEST",
+                    "advancedButtonStyling": true,
+                    "width": "100%",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "{dialog.object}.logout();",
+                        "swipe": "",
+                        "swipeLeft": "",
+                        "swipeRight": "",
+                        "swipeUp": "",
+                        "swipeDown": ""
+                    },
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_TEST','abstractclick',function(e) {\n{dialog.object}.logout();\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_TEST');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['LOGOUT_TEST'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',\n\thtml: 'Logout',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['LOGOUT_TEST'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.LOGOUT_TEST');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=8c2caaee_2a8c_4740_8caf_7140b1b83e85}{I:'vertLineCap'} [Panel Card End: PANEL_APPLICATION]",
+                "displayODFlat": "{Data=8c2caaee_2a8c_4740_8caf_7140b1b83e85}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "8c2caaee_2a8c_4740_8caf_7140b1b83e85",
+                "containerStartIndex": 10,
+                "parentContainer": 2,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=8c2caaee_2a8c_4740_8caf_7140b1b83e85}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=8c2caaee_2a8c_4740_8caf_7140b1b83e85}{I:'vertLineCap'} [Panel Card End: PANEL_APPLICATION]",
+                "indentTree": 1,
+                "crc": "4294948217",
+                "parentIsCollapsed": true,
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelNavigatorEnd",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=258a8205_0c0a_405c_8beb_f238245b8e6e}{I:'vertLineCap'} [Panel Navigator End: PANEL_APPLICATIONNAVIGATOR]",
+                "displayODFlat": "{Data=258a8205_0c0a_405c_8beb_f238245b8e6e}{I:'vertlinecap'} [Panel Navigator End]",
+                "idInternal": "258a8205_0c0a_405c_8beb_f238245b8e6e",
+                "containerStartIndex": 2,
+                "parentContainer": -1,
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=258a8205_0c0a_405c_8beb_f238245b8e6e}{I:'vertlinecap'} [Panel Navigator End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=258a8205_0c0a_405c_8beb_f238245b8e6e}{I:'vertLineCap'} [Panel Navigator End: PANEL_APPLICATIONNAVIGATOR]",
+                "indentTree": 0,
+                "crc": "4294934135",
+                "parentIsCollapsed": false,
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                }
+            }
+        ],
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "layoutType": "ContainerWidth",
+        "previewMode": "MobileDevice",
+        "useDragScrolling": "Auto",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "clientSideEvents": {
+            "beforeUXSectionPrepare": "",
+            "afterUXSectionPrepare": "",
+            "beforeUXSectionDestroy": "",
+            "afterUXSectionDestroy": "",
+            "_canAjaxCallback": "",
+            "__afterAjaxCallbackComplete": "",
+            "onOAuthAuthorize": "",
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onBeforeCreate": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "afterControlBasedOnClientSideDataCacheRefreshed": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "{dialog.object}.panelSetActive('PANEL_APPLICATION');",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "{dialog.object}.panelSetActive('PANEL_LOGIN');",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onOAuthCompleted": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "onWatchEvent": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Icon",
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": "",
+                "showWarning": true
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?",
+            "windowTitleDirection": "ltr"
+        },
+        "dataBinding": {
+            "autoRefreshSchemaOnLoad": true,
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshPromptFirst": "Prompt"
+        },
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "display": true,
+            "userNameControl": "UserName",
+            "passwordControl": "Password",
+            "errorMessagesPlaceholder": "LOGIN_ERRORS",
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true
+        },
+        "selected": "5fcb974b_8b54_4ce8_a4a5_931299b95c52\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 42,
+        "clientSideEventIndexC": "42",
+        "lastControlSelected": "insert_layout_directive_button",
+        "repeatingSectionsAreDirty": true,
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "embeddedMode": false,
+        "toolBox_value": "",
+        "addinBuildNumber": "5067",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "precalc": {
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\"  autocapitalize=\"off\"  autocorrect=\"off\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.USERNAME\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<!--FldS--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.PASSWORD\" title=\"\"  autocapitalize=\"off\"  autocorrect=\"off\"     class=\"[class.dialogInput]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.PASSWORD\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n\t<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_BUTTON\"    ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t\n<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_BUTTON\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 100%\"  id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGIN_ERRORS\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >This is a [Static Text] control in the [PANEL_APPLICATION] Panel Card.<br>\nYou should replace this control with an [Embedded Object] control to display the UX component\nfor your application.</br><br>\nWhen you embedded your UX component here, you will typically set the 'Delay render till visible' property to true.</br></div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n\t<div class=\"A5CWLayout\" style=\"width: 100%\" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.LOGOUT_TEST\"    ></button>\n</div><!--breakbegin--><br style=\"clear:both; \" /><!--breakend-->\n\t\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PANEL_LOGIN : 'PANEL_LOGIN',PANEL_APPLICATION : 'PANEL_APPLICATION',PANEL_APPLICATIONNAVIGATOR : 'PANEL_APPLICATIONNAVIGATOR'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "otherJS": "",
+            "customControl": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "customControl_xbasicFunctions": ""
+            },
+            "themeSearchReplaceString": "",
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\n\n}",
+            "appcacheEvents": ""
+        },
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: 'ac611a65-2859-4193-9133-858cf8b96765',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'icon', \n\t\tclassName: 'errorTip',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t},\n\t\tafterLogin: function(e) {\n{dialog.object}.panelSetActive('PANEL_APPLICATION');\n\t\t},\n\t\tafterLogout: function(e) {\n{dialog.object}.panelSetActive('PANEL_LOGIN');\n\t\t}\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.USERNAME=\"\"\nvalue.PASSWORD=\"\"",
+            "setValueProperties2": "value.USERNAME=\"\"\nvalue.PASSWORD=\"\"",
+            "setValueUnformattedProperties": "value.USERNAME=convert_type(\"\",\"C\")\nvalue.PASSWORD=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            }
+        },
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "mobileDeviceDefault": "iphone4_v",
+        "localPreviewFlag": false,
+        "Livepreview_permissions": "",
+        "_style_versionNumber": 2,
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "pageTitle": "UX",
+        "securityDeniedAction": "Redirect to login page",
+        "showLineNumbersInControlsList": false,
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "variablesToNotPersist": "",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser"
+        },
+        "securityAppliedClientSide": true,
+        "preRenderUXatDesignTime": true,
+        "preRenderComputeWhen": "Every time component is saved",
+        "__WPhostName": "Chrome",
+        "addinBuildNumberHighestUsed": "5067",
+        "versionNumber": 1,
+        "_style_hasSassOverrides": false,
+        "useCompactTheme": false,
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "preRenderWarningMessageShow": true,
+        "flagDropdownCascadingChanged": false,
+        "minimumBuildNumber": "",
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "customTabOrder": "",
+        "autoSetPreRenderOnForAllUX": true,
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "dataSeriesPublishToClientSide": false,
+        "captureJSErrorStackTrace": false,
+        "__LPhostName": "Internet Explorer",
+        "_style_hassubthemeTweaks": false,
+        "_buildCount": "1",
+        "A5SaveTimeStamp": "20180327153159641"
+    }
+}

@@ -1,0 +1,306 @@
+<PubHist<[1]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:50 23 am')>
+>
+<[2]<type="folder">
+<name="ExeReportStyles">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 02:38:05 79 pm')>
+>
+<[3]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 02:38:05 80 pm')>
+>
+<[4]<type="folder">
+<name="ExeChartStyles">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 02:38:05 80 pm')>
+>
+<[5]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 02:38:05 81 pm')>
+>
+<[6]<type="A5WPage">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\index.a5w}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:52 96 am')>
+>
+<[7]<type="WebComponent">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\main.a5wcmp}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 02:38:06 95 pm')>
+>
+<[8]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:53 14 am')>
+>
+<[9]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\css\font-awesome.min.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:53 17 am')>
+>
+<[10]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\framework7-icons.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:53 21 am')>
+>
+<[11]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\framework7.md.min.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:53 25 am')>
+>
+<[12]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\framework7.min.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:53 30 am')>
+>
+<[13]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:54 39 am')>
+>
+<[14]<type="css">
+<name="ios7">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 42 am')>
+>
+<[15]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\pages.securitysettings}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 79 am')>
+>
+<[16]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 82 am')>
+>
+<[17]<type="css">
+<name="cssicons">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 83 am')>
+>
+<[18]<type="css">
+<name="framework7-icons.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 83 am')>
+>
+<[19]<type="css">
+<name="framework7.md.min.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 83 am')>
+>
+<[20]<type="css">
+<name="framework7.min.css}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 83 am')>
+>
+<[21]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.eot}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:55 95 am')>
+>
+<[22]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.svg}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 03 am')>
+>
+<[23]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.ttf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 07 am')>
+>
+<[24]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff2}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 12 am')>
+>
+<[25]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome-webfont.woff}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 16 am')>
+>
+<[26]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\cssicons\font-awesome\fonts\fontawesome.otf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 21 am')>
+>
+<[27]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\fonts\framework7icons-regular.eot}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 27 am')>
+>
+<[28]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\fonts\framework7icons-regular.ttf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 29 am')>
+>
+<[29]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\fonts\framework7icons-regular.woff2}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 35 am')>
+>
+<[30]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\css\fonts\framework7icons-regular.woff}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 38 am')>
+>
+<[31]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\img\embonor-b.png}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 39 am')>
+>
+<[32]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\js\framework7.min.js}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 54 am')>
+>
+<[33]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\oneclick_proto.aex}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:23:48 08 am')>
+>
+<[34]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\projectproperties.projectproperties}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:23:48 09 am')>
+>
+<[35]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_expired.dbf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 57 am')>
+>
+<[36]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_expired.dbp}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 61 am')>
+>
+<[37]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_expired.ddd}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 66 am')>
+>
+<[38]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_expired.ddm}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 67 am')>
+>
+<[39]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_expired.ddx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 69 am')>
+>
+<[40]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.cdx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 72 am')>
+>
+<[41]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.dbf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 73 am')>
+>
+<[42]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.dbp}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 76 am')>
+>
+<[43]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.ddd}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 78 am')>
+>
+<[44]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.ddm}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 80 am')>
+>
+<[45]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_groups.ddx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 81 am')>
+>
+<[46]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_members.dbf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 82 am')>
+>
+<[47]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_members.dbp}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 85 am')>
+>
+<[48]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_members.ddd}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 86 am')>
+>
+<[49]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_members.ddm}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 87 am')>
+>
+<[50]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_members.ddx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 88 am')>
+>
+<[51]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.cdx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 91 am')>
+>
+<[52]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.dbf}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 92 am')>
+>
+<[53]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.dbp}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 96 am')>
+>
+<[54]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.ddd}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 97 am')>
+>
+<[55]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.ddm}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:56 97 am')>
+>
+<[56]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\websecurity_users.ddx}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:15:57 02 am')>
+>
+<[57]<type="cssIcon">
+<name="font-awesome">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:16:25 10 am')>
+>
+<[58]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\img\add-icon.png}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 10:52:54 67 am')>
+>
+<[59]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\img\loader.gif}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 11:34:39 22 am')>
+>
+<[60]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\img\credit-cards\mastercard-icon.png}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 12:02:16 53 pm')>
+>
+<[61]<type="file">
+<name="{c:\users\sebastian cardoza\documents\proyectos\oneclick\embonor_oneclick\oneclick_proto.webprojects\default.webproject\img\credit-cards\visa-icon.png}">
+<target_folder="c:\a5webroot\embonor">
+<timestamp=CTODT('28-03-2018 12:02:16 54 pm')>
+>
+>
